@@ -1,0 +1,108 @@
+:root {
+    --main-color: #379ee7;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* start navbar */
+.navbar {
+    background-color: #343a40;
+}
+.navbar .navbar-nav .nav-link {
+    color: #a7a4a4;
+    font-size: 14px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+    color: white;
+}
+.navbar input[type="search"] {
+    border-radius: 5px;
+    font-size: 13px;
+}
+.navbar input[type="search"] {
+    border: none;
+}
+.navbar input[type="search"]:focus {
+    outline: none;
+    border: 1px solid var(--main-color);
+}
+.navbar .navbar-toggler {
+    color: #9a9da0;
+    font-weight: normal;
+    font-size: 30px;
+    border-color: #494e53;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+/* end navbar */
+/* start landing */
+.landing {
+    background-color: var(--main-color);
+    height: calc(100vh - 58px);
+}
+@media (max-width: 767px) {
+    .landing {
+        height: 133vh;
+    }
+}
+.landing p {
+    font-weight: 300;
+    font-size: 28px;
+    width: 85%;
+    line-height: 1.5;
+}
+.landing a {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 55px;
+    font-size: 20px;
+}
+.landing a:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+/* end landing */
+/* start services */
+.services {
+    border-bottom: 1px solid #00000021;
+}
+.services .para {
+    font-size: 18px;
+    margin: auto;
+    width: 80%;
+}
+.services .row .box svg {
+    color: var(--main-color);
+    font-size: 80px;
+}
+.services .row .box p {
+    font-size: 15px;
+}
+/* end services */
+/* start update */
+.update a {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 8px 25px;
+    font-size: 20px;
+}
+.update a:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+/* end update */
+/* start footer */
+.footer {
+    background-color: #dbdbdb;
+    font-size: 14px;
+}
+.footer .links a {
+    text-decoration: none;
+    padding-right: 19px;;
+}
+.footer p a {
+    text-decoration: none;
+}
+/* end footer */
